@@ -1,11 +1,11 @@
-import '../assets/images/logo.png'
+import logo from '../assets/images/logo.png'
+
 function Header() {
   return (
     <>
-    <div className='logo'>
-        <img src={logo} />
-        <h1>Netflix</h1>
-    </div>
+      <img src={logo} alt="Netflix Logo" />
+
+      <button>Login</button>
     </>
   )
 }
