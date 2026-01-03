@@ -6,7 +6,6 @@ function App() {
   return (
     <>
       <img src={logo} alt="Netflix Logo" />
-
       <button>Login</button>
     </>
   )
